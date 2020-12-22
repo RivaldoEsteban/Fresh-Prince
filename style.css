@@ -1,3 +1,102 @@
 body {
-  border: 1px solid red;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+.wrapper {
+  max-width: 1300px;
+  margin: auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.icons-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.body-container {
+  margin: auto;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 90px 650px 450px;
+  grid-template-rows: 924px 950px;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-areas:
+  "muestra principal price"
+  "buy buy buy"
+}
+.section-muestra {
+  grid-area: muestra;
+}
+.section-principal {
+  grid-area: principal;
+  overflow-y: auto;
+}
+.section-price-size {
+  grid-area: price;
+}
+.option-buy {
+  grid-area: buy;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+.option-buy h1 {
+  font-weight: 700;
+  font-size: 75px;
+  margin: 10px;
+}
+.modelos {
+  display: flex;
+  gap: 50px;
+}
+.modelos p {
+  font-weight: 700;
+  font-size: 24px;
+  /* color:gray; */
+}
+.price {
+  color: red;
+}
+.img-freshprince img  {
+  width: 100%;
+}
+.footer {
+  background: black;
+  height: 350px;
+  margin-top: 50px;
+}
+.footer-container {
+  background: black;
+  /* height: 200px; */
+  /* border: 1px solid red; */
+  width: 400px;
+  margin: auto;
+  padding: 50px 0;
+  /* align-items: center; */
+}
+.icons-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+.icons-footer img {
+  width: 40px;
+  height: 40px;
+  border: 2px  solid white;
+  padding: 20px;
+  border-radius: 42px;
 }
