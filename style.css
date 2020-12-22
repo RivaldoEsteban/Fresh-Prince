@@ -46,6 +46,65 @@ body {
 .section-price-size {
   grid-area: price;
 }
+.section-price-size h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 20px 0 0 0;
+}
+.section-price-size p {
+  margin: 5px;
+}
+.tallas {
+  margin-top: 20px;
+}
+.tallas p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.tallas a {
+  color: black;
+  margin: 15px;
+  text-decoration: none;
+}
+.talla-s {
+  border: 1px solid black;
+  padding: 9px 16px;
+  border-radius: 21px;
+}
+.button {
+  margin: 40px 0 20px;
+}
+.black {
+  background: black;
+  border: none;
+  color: white;
+  width: 450px;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.blue {
+  background: blue;
+  border: none;
+  color: white;
+  width: 450px;
+  text-align: center;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.text p {
+  margin: 20px 0;
+  color: black;
+}
+.text a {
+  color: black;
+}
 .option-buy {
   grid-area: buy;
   text-align: center;
